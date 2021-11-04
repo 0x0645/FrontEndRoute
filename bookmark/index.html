@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="hd container-fluid">
+        <div style="border-bottom: 1px solid black; padding: 20px;
+        " class=" container">
+            <h3>Bookmarker</h3>
+        </div>
+    </header>
+
+    <section style="margin-bottom: 20px;">
+        <div id="ma" class=" add container ">
+            <div class="cont">
+                <div id ="rr" class="bg-danger text-white">
+                </div>
+                <h2>Bookmark your favorite sites </h2>
+                <p>Site Name</p>
+                <input id="siteName" placeholder="Bookmark Name" type="text">
+                <p class="alert alert-error m-auto" id="nameError" style="display: none;"></p>
+                <p>Site URL</p>
+                <input id="siteUrl" placeholder="website URL" type="text">
+                <p class="alert alert-error m-auto" id="urlError" style="display: none;"></p>
+                <div class="mx-auto mt-3">
+                    <button id="subb" class="btn btn-primary" onclick="addP()">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div id="dataV" class=" container">
+        <!-- <div class="cln">
+            <h2 class="mr-auto">rw3tr</h2>
+            <a class="btn btn-primary" href="http://r3wt3w" target="_blank">visit</a>
+            <button class="btn btn-info btndelete">Edit</button>
+            <button class="btn btn-danger btndelete">Delete</button>
+    </div> -->
+    </div>
+    <div class="container">
+        <p>© 2020 Bookmarker Inc.</p>
+    </div>
+    <script src="js/crud.js"></script>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

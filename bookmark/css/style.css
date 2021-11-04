@@ -1,0 +1,26 @@
+.hd{
+    padding: 40px 60px;
+}
+.add {
+    background-color: #EEE;
+    padding: 40px 60px;
+}
+.cont{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+}
+.cont p{
+    margin-top: 1rem;
+}
+.cln{
+    background-color: #EEE;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    margin-right:10px;
+}
